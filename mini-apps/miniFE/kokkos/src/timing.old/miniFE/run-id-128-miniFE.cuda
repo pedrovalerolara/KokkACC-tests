@@ -1,0 +1,39 @@
+MiniFE Mini-App, Kokkos Peer Implementation
+      creating/filling mesh...0.0237069s, total time: 0.0237069
+generating matrix structure...0.884755s, total time: 0.908462
+         assembling FE data...9.43643s, total time: 10.3449
+      imposing Dirichlet BC...2.88437s, total time: 13.2293
+      imposing Dirichlet BC...2.46906s, total time: 15.6983
+making matrix indices local...0s, total time: 15.6983
+Starting CG solver ... 
+Initial Residual = 129.004
+Iteration = 20   Residual = 0.0493962
+Iteration = 40   Residual = 0.0198018
+Iteration = 60   Residual = 0.051879
+Iteration = 80   Residual = 0.00585994
+Iteration = 100   Residual = 0.00303293
+Iteration = 120   Residual = 0.00228089
+Iteration = 140   Residual = 0.000819635
+Iteration = 160   Residual = 7.40936e-05
+Iteration = 180   Residual = 2.45343e-05
+Iteration = 200   Residual = 3.74692e-06
+Final Resid Norm: 3.74692e-06
++++ Time: -----------------------   Dumping timers ...
++++ Time: ----, parallel for,Kokkos::View::initialization [DualView::modified_flags] via memset,7.6026e-05,14
++++ Time: ----, parallel for,Kokkos::View::initialization [PerfElemLoop::elemIDs] via memset,3.4942e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [PerfElemLoop::elemIDs_mirror] via memset,0.000462684,1
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector] via memset,0.000412668,10
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector_mirror] via memset,0.0103172,8
++++ Time: ----, parallel for,Kokkos::View::initialization [] via memset,0.000983395,4
++++ Time: ----, parallel for,Kokkos::View::initialization [_mirror] via memset,0.0588336,4
++++ Time: ----, parallel for,Kokkos::ViewCopy-1D,3.4804e-05,4
++++ Time: ----, parallel for,Kokkos::vector::assign,0.0146269,10
++++ Time: ----, parallel for,SPMV,0.189072,201
++++ Time: ----, parallel for,V_AddVector,0.0147273,202
++++ Time: ----, parallel for,V_AddVectorSelf,0.0297616,400
++++ Time: ----, parallel reduce,V_Dot,0.0278609,400
++++ Time: ----, parallel for,generate_matrix_structure<Host>,0.14523,1
++++ Time: ----, parallel for,impose_dirichlet_A<Host>,0.0195695,2
++++ Time: ----, parallel for,impose_dirichlet_B<Host>,5.33378,2
++++ Time: ----, parallel for,perform_element_loop<Host>,9.40511,1
++++ Time: -----------------------   End dumping timers ...

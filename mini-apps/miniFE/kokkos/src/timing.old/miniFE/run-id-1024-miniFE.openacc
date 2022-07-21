@@ -1,0 +1,31 @@
+MiniFE Mini-App, Kokkos Peer Implementation
+      creating/filling mesh...0.205246s, total time: 0.205246
+generating matrix structure...7.37014s, total time: 7.57539
+         assembling FE data...39.2476s, total time: 46.8229
+      imposing Dirichlet BC...37.7424s, total time: 84.5653
+      imposing Dirichlet BC...26.663s, total time: 111.228
+making matrix indices local...0s, total time: 111.228
+Starting CG solver ... 
+Initial Residual = 129.242
+miniFE::cg_solve ERROR, numerical breakdown!
+Final Resid Norm: 18328.9
++++ Time: -----------------------   Dumping timers ...
++++ Time: ----, parallel for,Kokkos::View::initialization [DualView::modified_flags] via memset,9.721e-06,14
++++ Time: ----, UNDEF,Kokkos::View::initialization [PerfElemLoop::elemIDs] via memset,0,0
++++ Time: ----, parallel for,Kokkos::View::initialization [PerfElemLoop::elemIDs_mirror] via memset,0.00506929,1
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector] via memset,0.000181438,2
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector_mirror] via memset,0.0846591,8
++++ Time: ----, UNDEF,Kokkos::View::initialization [] via memset,0,0
++++ Time: ----, parallel for,Kokkos::View::initialization [_mirror] via memset,0.467945,4
++++ Time: ----, parallel for,Kokkos::ViewCopy-1D,2.131e-06,4
++++ Time: ----, parallel for,Kokkos::ViewFill-1D,0.0100059,26
++++ Time: ----, parallel for,Kokkos::vector::assign,0.10301,10
++++ Time: ----, parallel for,SPMV,0.0387912,4
++++ Time: ----, parallel for,V_AddVector,0.00232576,5
++++ Time: ----, parallel for,V_AddVectorSelf,0.00204155,4
++++ Time: ----, parallel reduce,V_Dot,0.00239762,6
++++ Time: ----, parallel for,generate_matrix_structure<Host>,0.961536,1
++++ Time: ----, parallel for,impose_dirichlet_A<Host>,0.0524251,2
++++ Time: ----, parallel for,impose_dirichlet_B<Host>,64.3529,2
++++ Time: ----, parallel for,perform_element_loop<Host>,39.0493,1
++++ Time: -----------------------   End dumping timers ...

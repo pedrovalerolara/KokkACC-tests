@@ -1,0 +1,57 @@
+#Set your Kokkos path to something appropriate
+KOKKOS_PATH = $(KOKKOS_ROOT)
+#KOKKOS_DEVICES = "Cuda"
+KOKKOS_DEVICES ?= "OpenACC"
+#KOKKOS_DEVICES = "OpenMP"
+KOKKOS_ARCH = "Volta70"
+KOKKOS_CUDA_OPTIONS = enable_lambda
+KOKKOS_OPTIONS = disable_desul_atomics
+SRC = $(wildcard *.cc)
+
+default: build
+	echo "Start Build"
+	
+CXXFLAGS = -g -O3 -DUSE_OMP=1 -DRAJA_USE_GETTIME -I./includes -I./ 
+
+ifeq ( $(USE_MPI), yes) 
+CXX = mpicxx
+CXXFLAGS += -DUSE_MPI=1
+else
+#CXX = ${KOKKOS_PATH}/bin/nvcc_wrapper
+CXX ?= nvc++
+#CXX = clang++
+#CXX = g++
+CXXFLAGS += -DUSE_MPI=0
+KOKKOS_CXX_STANDARD = c++17
+endif
+
+LINK = ${CXX}
+
+LINKFLAGS =  
+EXE = lulesh.kk.${KOKKOS_DEVICES}
+
+DEPFLAGS = -M
+
+OBJ = $(SRC:.cc=.o)
+LIB =
+
+include $(KOKKOS_PATH)/Makefile.kokkos
+
+build: $(EXE)
+
+$(EXE): $(OBJ) $(KOKKOS_LINK_DEPENDS)
+	$(LINK) $(KOKKOS_LDFLAGS) $(LINKFLAGS) $(EXTRA_PATH) $(OBJ) $(KOKKOS_LIBS) $(LIB) -o $(EXE)
+
+clean: kokkos-clean 
+	rm -f *.o 
+
+purge: clean
+	rm -f lulesh.kk.*
+
+# Compilation rules
+
+%.o:%.cc $(KOKKOS_CPP_DEPENDS) lulesh.h lulesh_tuple.h
+	$(CXX) $(KOKKOS_CPPFLAGS) $(KOKKOS_CXXFLAGS) $(CXXFLAGS) $(EXTRA_INC) -c $<
+
+
+

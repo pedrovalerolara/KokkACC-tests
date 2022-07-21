@@ -1,0 +1,60 @@
+Mini-Application Name: miniFE
+Mini-Application Version: 2.0
+Global Run Parameters: 
+  dimensions: 
+    nx: 64
+    ny: 64
+    nz: 64
+  load_imbalance: 0
+  mv_overlap_comm_comp: 0 (no)
+  number of processors: 1
+  ScalarType: double
+  GlobalOrdinalType: int
+  LocalOrdinalType: int
+Platform: 
+  hostname: leconte
+  kernel name: 'Linux'
+  kernel release: '4.18.0-240.1.1.el8_3.ppc64le'
+  processor: 'ppc64le'
+Build: 
+  CXX: '/opt/nvidia/hpc_sdk/Linux_ppc64le/21.3/compilers/bin/nvc++'
+  compiler version: 'nvc++ 21.3-0 linuxpower target on Linuxpower '
+  CXXFLAGS: '-O3  -acc -DKOKKOS_HAVE_OPENACC -DUSE_MPI=0 -acc -DMPICH_IGNORE_CXX_SEEK -fPIC -DMINIFE_SCALAR=double -DMINIFE_LOCAL_ORDINAL=int -DMINIFE_GLOBAL_ORDINAL=int -DMINIFE_CSR_MATRIX -I./ -I/home/f3g/KOKKOS/kokkos-openacc/mini-apps/miniFE/miniFE/kokkos/src/.. -I/home/f3g/KOKKOS/kokkos-openacc/mini-apps/miniFE/miniFE/kokkos/src/../src -I/home/f3g/KOKKOS/kokkos-openacc/mini-apps/miniFE/miniFE/kokkos/src/../kokkos/linalg/src  -I/home/f3g/KOKKOS/kokkos-openacc/mini-apps/miniFE/miniFE/kokkos/src/../fem -I/home/f3g/KOKKOS/kokkos-openacc/mini-apps/miniFE/miniFE/kokkos/src/../utils -I/home/f3g/KOKKOS/kokkos-openacc/mini-apps/miniFE/miniFE/kokkos/src/../common   -DMINIFE_INFO=1 -DMINIFE_KERNELS=0 -DUSE_MPI_WTIME'
+  using MPI: no
+Run Date/Time: 2022-04-03, 11-34-41
+Rows-per-proc Load Imbalance: 
+  Largest (from avg, %): 0
+  Std Dev (%): 0
+Matrix structure generation: 
+  Mat-struc-gen Time: 0.491961
+FE assembly: 
+  FE assembly Time: 0.61231
+Matrix attributes: 
+  Global Nrows: 274625
+  Global NNZ: 7189057
+  Global Memory (GB): 0.0823901
+  Pll Memory Overhead (MB): 0
+  Rows per proc MIN: 274625
+  Rows per proc MAX: 274625
+  Rows per proc AVG: 274625
+  NNZ per proc MIN: 7189057
+  NNZ per proc MAX: 7189057
+  NNZ per proc AVG: 7.18906e+06
+CG solve: 
+  Iterations: 0
+  Final Resid Norm: 65.0072
+  WAXPY Time: 0.00012207
+  WAXPY Flops: 1.57286e+06
+  WAXPY Mflops: 12884.9
+  DOT Time: 0.000172853
+  DOT Flops: 0
+  DOT Mflops: 0
+  MATVEC Time: 0.000355959
+  MATVEC Flops: 1.43781e+07
+  MATVEC Mflops: 40392.6
+  Total: 
+    Total CG Time: 0.000690937
+    Total CG Flops: 1.5951e+07
+    Total CG Mflops: 23086
+  Time per iteration: inf
+Total Program Time: 1.90741

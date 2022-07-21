@@ -1,0 +1,31 @@
+MiniFE Mini-App, Kokkos Peer Implementation
+      creating/filling mesh...0.00032711s, total time: 0.00032711
+generating matrix structure...0.00333381s, total time: 0.00366092
+         assembling FE data...0.018223s, total time: 0.021884
+      imposing Dirichlet BC...0.00360298s, total time: 0.0254869
+      imposing Dirichlet BC...0.00308704s, total time: 0.028574
+making matrix indices local...0s, total time: 0.028574
+Starting CG solver ... 
+Initial Residual = 17.0223
+Iteration = 20   Residual = 0.00033384
+Iteration = 40   Residual = 9.76551e-12
+Final Resid Norm: 9.78813e-17
++++ Time: -----------------------   Dumping timers ...
++++ Time: ----, parallel for,Kokkos::View::initialization [DualView::modified_flags] via memset,7.3245e-05,14
++++ Time: ----, parallel for,Kokkos::View::initialization [PerfElemLoop::elemIDs] via memset,1.5896e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [PerfElemLoop::elemIDs_mirror] via memset,6.171e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector] via memset,0.000130868,10
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector_mirror] via memset,4.6594e-05,8
++++ Time: ----, parallel for,Kokkos::View::initialization [] via memset,6.6567e-05,4
++++ Time: ----, parallel for,Kokkos::View::initialization [_mirror] via memset,0.000140988,4
++++ Time: ----, parallel for,Kokkos::ViewCopy-1D,3.1875e-05,4
++++ Time: ----, parallel for,Kokkos::vector::assign,8.597e-05,10
++++ Time: ----, parallel for,SPMV,0.00100472,52
++++ Time: ----, parallel for,V_AddVector,0.000788655,53
++++ Time: ----, parallel for,V_AddVectorSelf,0.00148677,102
++++ Time: ----, parallel reduce,V_Dot,0.00287026,128
++++ Time: ----, parallel for,generate_matrix_structure<Host>,0.000426754,1
++++ Time: ----, parallel for,impose_dirichlet_A<Host>,6.2256e-05,2
++++ Time: ----, parallel for,impose_dirichlet_B<Host>,0.00657785,2
++++ Time: ----, parallel for,perform_element_loop<Host>,0.0177199,1
++++ Time: -----------------------   End dumping timers ...

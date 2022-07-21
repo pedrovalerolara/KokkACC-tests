@@ -1,0 +1,5 @@
+/src/*.o
+src/KokkosCore_config.*
+build
+.cproject
+.project

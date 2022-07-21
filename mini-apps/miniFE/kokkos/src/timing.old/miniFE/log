@@ -1,0 +1,144 @@
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:Run Date/Time: 2022-04-03, 11-38-21
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:  Mat-struc-gen Time: 7.37014
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:  FE assembly Time: 39.2476
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:  WAXPY Time: 0.00438404
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:  DOT Time: 0.00240278
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:  MATVEC Time: 0.0387959
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:    Total CG Time: 0.04563
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:  Time per iteration: 0.022815
+miniFE.1024x128x128.2022:04:03-11:40:13.yaml:Total Program Time: 112.131
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:Run Date/Time: 2022-04-03, 11-40-14
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:  Mat-struc-gen Time: 7.04914
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:  FE assembly Time: 75.1378
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:  WAXPY Time: 0.303091
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:  DOT Time: 0.154874
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:  MATVEC Time: 1.56928
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:    Total CG Time: 2.02738
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:  Time per iteration: 0.0101369
+miniFE.1024x128x128.2022:04:03-11:42:25.yaml:Total Program Time: 130.914
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:Run Date/Time: 2022-04-03, 11-34-46
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:  Mat-struc-gen Time: 1.24328
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:  FE assembly Time: 4.86182
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:  WAXPY Time: 0.000278711
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:  DOT Time: 0.000286102
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:  MATVEC Time: 0.00241613
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:    Total CG Time: 0.00302887
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:  Time per iteration: inf
+miniFE.128x128x128.2022:04:03-11:35:00.yaml:Total Program Time: 13.6495
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:Run Date/Time: 2022-04-03, 11-35-01
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:  Mat-struc-gen Time: 0.884755
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:  FE assembly Time: 9.43643
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:  WAXPY Time: 0.0502341
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:  DOT Time: 0.0315936
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:  MATVEC Time: 0.190983
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:    Total CG Time: 0.272937
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:  Time per iteration: 0.00136469
+miniFE.128x128x128.2022:04:03-11:35:17.yaml:Total Program Time: 16.074
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:Run Date/Time: 2022-04-03, 11-34-36
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:  Mat-struc-gen Time: 0.377661
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:  FE assembly Time: 0.00982904
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:  WAXPY Time: 9.41753e-05
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:  DOT Time: 0.000149012
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:  MATVEC Time: 6.79493e-05
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:    Total CG Time: 0.000324011
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:  Time per iteration: inf
+miniFE.16x16x16.2022:04:03-11:34:36.yaml:Total Program Time: 0.39707
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:Run Date/Time: 2022-04-03, 11-34-37
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:  Mat-struc-gen Time: 0.00330806
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:  FE assembly Time: 0.0182281
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:  WAXPY Time: 0.0037322
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:  DOT Time: 0.00324225
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:  MATVEC Time: 0.00133538
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:    Total CG Time: 0.00916195
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:  Time per iteration: 0.000179646
+miniFE.16x16x16.2022:04:03-11:34:37.yaml:Total Program Time: 0.0394039
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:Run Date/Time: 2022-04-03, 11-35-18
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:  Mat-struc-gen Time: 2.11453
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:  FE assembly Time: 9.71622
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:  WAXPY Time: 0.00177908
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:  DOT Time: 0.00146818
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:  MATVEC Time: 0.0116279
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:    Total CG Time: 0.0149209
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:  Time per iteration: 0.00497365
+miniFE.256x128x128.2022:04:03-11:35:45.yaml:Total Program Time: 27.2528
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:Run Date/Time: 2022-04-03, 11-35-46
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:  Mat-struc-gen Time: 1.76599
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:  FE assembly Time: 18.8586
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:  WAXPY Time: 0.086395
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:  DOT Time: 0.0490062
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:  MATVEC Time: 0.396981
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:    Total CG Time: 0.53252
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:  Time per iteration: 0.0026626
+miniFE.256x128x128.2022:04:03-11:36:18.yaml:Total Program Time: 32.2756
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:Run Date/Time: 2022-04-03, 11-34-38
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:  Mat-struc-gen Time: 0.389152
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:  FE assembly Time: 0.0770509
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:  WAXPY Time: 9.91821e-05
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:  DOT Time: 0.000156164
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:  MATVEC Time: 0.000109673
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:    Total CG Time: 0.0003829
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:  Time per iteration: inf
+miniFE.32x32x32.2022:04:03-11:34:39.yaml:Total Program Time: 0.550678
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:Run Date/Time: 2022-04-03, 11-34-40
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:  Mat-struc-gen Time: 0.017328
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:  FE assembly Time: 0.147709
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:  WAXPY Time: 0.00774336
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:  DOT Time: 0.00673938
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:  MATVEC Time: 0.00447035
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:    Total CG Time: 0.019902
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:  Time per iteration: 0.000191365
+miniFE.32x32x32.2022:04:03-11:34:40.yaml:Total Program Time: 0.252149
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:Run Date/Time: 2022-04-03, 11-36-19
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:  Mat-struc-gen Time: 3.88512
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:  FE assembly Time: 19.4934
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:  WAXPY Time: 0.00235248
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:  DOT Time: 0.00177956
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:  MATVEC Time: 0.01859
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:    Total CG Time: 0.0227721
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:  Time per iteration: 0.011386
+miniFE.512x128x128.2022:04:03-11:37:14.yaml:Total Program Time: 55.0755
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:Run Date/Time: 2022-04-03, 11-37-15
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:  Mat-struc-gen Time: 3.55794
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:  FE assembly Time: 37.9076
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:  WAXPY Time: 0.158723
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:  DOT Time: 0.0833817
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:  MATVEC Time: 0.794365
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:    Total CG Time: 1.03664
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:  Time per iteration: 0.00518318
+miniFE.512x128x128.2022:04:03-11:38:20.yaml:Total Program Time: 65.252
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:Run Date/Time: 2022-04-03, 11-34-41
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:  Mat-struc-gen Time: 0.491961
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:  FE assembly Time: 0.61231
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:  WAXPY Time: 0.00012207
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:  DOT Time: 0.000172853
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:  MATVEC Time: 0.000355959
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:    Total CG Time: 0.000690937
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:  Time per iteration: inf
+miniFE.64x64x64.2022:04:03-11:34:42.yaml:Total Program Time: 1.90741
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:Run Date/Time: 2022-04-03, 11-34-43
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:  Mat-struc-gen Time: 0.139524
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:  FE assembly Time: 1.17181
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:  WAXPY Time: 0.0176971
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:  DOT Time: 0.0153799
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:  MATVEC Time: 0.0293014
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:    Total CG Time: 0.063504
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:  Time per iteration: 0.00031752
+miniFE.64x64x64.2022:04:03-11:34:45.yaml:Total Program Time: 1.98321
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:Run Date/Time: 2022-04-03, 11-34-34
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:  Mat-struc-gen Time: 0.372437
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:  FE assembly Time: 0.00140977
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:  WAXPY Time: 9.5129e-05
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:  DOT Time: 0.000148773
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:  MATVEC Time: 6.58035e-05
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:    Total CG Time: 0.000323057
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:  Time per iteration: inf
+miniFE.8x8x8.2022:04:03-11:34:34.yaml:Total Program Time: 0.375985
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:Run Date/Time: 2022-04-03, 11-34-35
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:  Mat-struc-gen Time: 0.00120592
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:  FE assembly Time: 0.00246811
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:  WAXPY Time: 0.00194168
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:  DOT Time: 0.00163913
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:  MATVEC Time: 0.000677347
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:    Total CG Time: 0.00489902
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:  Time per iteration: 0.000188424
+miniFE.8x8x8.2022:04:03-11:34:35.yaml:Total Program Time: 0.010736

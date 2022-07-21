@@ -1,0 +1,39 @@
+MiniFE Mini-App, Kokkos Peer Implementation
+      creating/filling mesh...0.165625s, total time: 0.165625
+generating matrix structure...7.04914s, total time: 7.21476
+         assembling FE data...75.1378s, total time: 82.3526
+      imposing Dirichlet BC...26.4385s, total time: 108.791
+      imposing Dirichlet BC...19.2568s, total time: 128.048
+making matrix indices local...0s, total time: 128.048
+Starting CG solver ... 
+Initial Residual = 129.242
+Iteration = 20   Residual = 0.427031
+Iteration = 40   Residual = 0.20387
+Iteration = 60   Residual = 0.26487
+Iteration = 80   Residual = 0.0973431
+Iteration = 100   Residual = 0.0756891
+Iteration = 120   Residual = 0.0619314
+Iteration = 140   Residual = 0.0516456
+Iteration = 160   Residual = 0.0580343
+Iteration = 180   Residual = 0.03832
+Iteration = 200   Residual = 0.0335716
+Final Resid Norm: 0.0335716
++++ Time: -----------------------   Dumping timers ...
++++ Time: ----, parallel for,Kokkos::View::initialization [DualView::modified_flags] via memset,7.823e-05,14
++++ Time: ----, parallel for,Kokkos::View::initialization [PerfElemLoop::elemIDs] via memset,0.000113024,1
++++ Time: ----, parallel for,Kokkos::View::initialization [PerfElemLoop::elemIDs_mirror] via memset,0.00507149,1
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector] via memset,0.00173056,10
++++ Time: ----, parallel for,Kokkos::View::initialization [Vector_mirror] via memset,0.0847323,8
++++ Time: ----, parallel for,Kokkos::View::initialization [] via memset,0.0070774,4
++++ Time: ----, parallel for,Kokkos::View::initialization [_mirror] via memset,0.467106,4
++++ Time: ----, parallel for,Kokkos::ViewCopy-1D,3.768e-05,4
++++ Time: ----, parallel for,Kokkos::vector::assign,0.116031,10
++++ Time: ----, parallel for,SPMV,1.56736,201
++++ Time: ----, parallel for,V_AddVector,0.0993707,202
++++ Time: ----, parallel for,V_AddVectorSelf,0.197981,400
++++ Time: ----, parallel reduce,V_Dot,0.151146,400
++++ Time: ----, parallel for,generate_matrix_structure<Host>,1.14751,1
++++ Time: ----, parallel for,impose_dirichlet_A<Host>,0.0536479,2
++++ Time: ----, parallel for,impose_dirichlet_B<Host>,45.6416,2
++++ Time: ----, parallel for,perform_element_loop<Host>,74.9654,1
++++ Time: -----------------------   End dumping timers ...
