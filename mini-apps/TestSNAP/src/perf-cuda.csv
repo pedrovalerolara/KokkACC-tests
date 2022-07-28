@@ -1,0 +1,68 @@
+Kokkos::ExecutionSpace = N6Kokkos4CudaE
+-----------------------
+Summary of TestSNAP run
+-----------------------
+natoms = 2 
+nghostatoms = 33 
+nsteps = 10000 
+nneighs = 8 
+twojmax = 2 
+duration = 5.32492 [sec]
+step time = 0.000532492 [sec/step]
+grind time = 0.266246 [msec/atom-step]
+RMS |Fj| deviation 2.31461e-15 [eV/A]
+
+ Individual routine timings
+compute_ui = 2.133669
+compute_yi = 1.079011
+compute_duidrj = 0.672395
+compute_deidrj = 0.604574
++++ Time: -----------------------   Dumping timers ...
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvdEXadL_ZNS1_17addself_uarraytotEdEELj1EEFviEJKS1_KidEE,0.25638,10000
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvvEXadL_ZNS1_14compute_deidrjEvEELj1EEFviEJKS1_EE,0.311503,10000
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvvEXadL_ZNS1_14compute_ui_cpuEvEELj1EEFvN6Kokkos4Impl14CudaTeamMemberEEJKS1_iEE,0.321872,10000
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvvEXadL_ZNS1_14compute_yi_cpuEvEELj1EEFvRKN6Kokkos4Impl14CudaTeamMemberEEJKS1_EE,0.260835,10000
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvvEXadL_ZNS1_14compute_yi_cpuEvEELj2EEFviEJKS1_EE,0.277628,10000
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvvEXadL_ZNS1_14zero_uarraytotEvEELj1EEFviEJKS1_EE,0.258985,10000
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvvEXadL_ZNS1_14zero_uarraytotEvEELj2EEFviEJKS1_EE,0.256401,10000
++++ Time: ----, parallel for,18__nv_hdl_wrapper_tILb0ELb0E11__nv_dl_tagIM3SNAFvvEXadL_ZNS1_15compute_duarrayEvEELj1EEFviEJKS1_EE,0.379152,10000
++++ Time: ----, parallel for,Kokkos::View::destruction [],3.6087e-05,4
++++ Time: ----, parallel for,Kokkos::View::initialization [betaj_index] via memset,1.2034e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [betaj_index_mirror] via memset,5.681e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [cglist] via memset,1.2187e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [cglist_mirror] via memset,5.498e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [dedr] via memset,1.1676e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [dedr_mirror] via memset,5.72e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [dulist],2.2038e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxb_block] via memset,1.2318e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxb_block_mirror] via memset,5.83e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxcg_block] via memset,1.1104e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxcg_block_mirror] via memset,5.744e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxdu_block] via memset,1.1449e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxdu_block_mirror] via memset,5.556e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxu_block] via memset,1.2042e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxu_block_mirror] via memset,5.814e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxz] via memset,1.2298e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxz_mirror] via memset,5.685e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxzbeta] via memset,1.1739e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [idxzbeta_mirror] via memset,5.722e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [inside] via memset,1.373e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [inside_mirror] via memset,5.492e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rcutij] via memset,1.1753e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rcutij_mirror] via memset,5.587e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rij] via memset,1.1661e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rij_mirror] via memset,5.859e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rootpqarray] via memset,1.1535e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rootpqarray_mirror] via memset,5.71e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rootpqparityarray] via memset,1.2105e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [rootpqparityarray_mirror] via memset,5.689e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [ulist],2.1335e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [ulist_parity] via memset,1.1589e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [ulist_parity_mirror] via memset,5.769e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [ulisttot],2.1849e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [wj] via memset,1.2562e-05,1
++++ Time: ----, parallel for,Kokkos::View::initialization [wj_mirror] via memset,5.581e-06,1
++++ Time: ----, parallel for,Kokkos::View::initialization [ylist],4.4414e-05,1
++++ Time: ----, parallel for,Kokkos::ViewCopy-2D,1.6756e-05,3
++++ Time: ----, parallel for,Kokkos::ViewCopy-3D,5.789e-06,1
++++ Time: -----------------------   End dumping timers ...
